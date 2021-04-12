@@ -1,0 +1,33 @@
+// FONTS
+
+$font-primary: 'Poppins', sans-serif;
+
+// COLORS
+
+$color-red: hsl(0, 78%, 62%);
+$color-cyan: hsl(180, 62%, 55%);
+$color-orange: hsl(34, 97%, 64%);
+$color-blue: hsl(212, 86%, 64%);
+
+// NEUTRAL COLORS 
+
+$color-dark-blue: hsl(234, 12%, 34%);
+$color-grey: hsl(229, 6%, 66%);
+$color-light-grey: hsl(0, 0%, 98%);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 66.6%; // 15px
+}
+
+body {
+    max-width: 140rem;
+}
